@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(236, 202, 185);
+}
+.button{
+    background-color: rgba(0, 0, 0, 0.078);
+    margin: 8px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+.button:hover{
+    background-color: #f3bd73fe;
+}
+#delete{
+    margin: 8px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+#delete:hover{
+    background-color: #f3bd73fe;
+}
+.app{
+    background-color: white;
+    position: relative;
+    margin-top: 7.5%;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    height: 600px;
+    width: 350px;
+    border-radius: 40px;
+    border-color: blue;
+    border: 4px solid rgb(191, 129, 5);
+    box-shadow: 0px 0px 30px rgb(238, 146, 48);
+}
+.result{
+    background-color: #f3bd73fe;
+    color: #ffff;
+    font-family: arial;
+    font-size: 30px;
+    height: 100px;
+    width: 300px;
+    position: relative;
+    top: 15%;
+    left: 6.5%;
+    border-radius: 10px;
+}
+.resultScreen{
+    background-color: #e7c698fe;
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    position: relative;
+    padding: 7.5%;
+    font-display: left;
+    top: 10%;
+    left: 3%;
+    height: 35px;
+    width: 235px;
+
+}
+.actions{
+    top: 20%;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    height: 350px;
+    position: relative;   
+}
+.row-4{
+    width: 210px;
+    position: relative;
+    margin-right: none;
+    
+}
+#equalBtn{
+    background-color: #f3bd73fe;
+    position: absolute;
+    top: 56%;
+    left: 68%;
+    margin: 8px;
+    height: 115px;
+    width: 50px;
+    border-radius: 10%;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+#equalBtn:hover{
+    background-color: rgba(0, 0, 0, 0.078);
+}
+
+
